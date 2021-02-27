@@ -10270,7 +10270,7 @@ body {
 
 .beach-container {
   height: 400px;
-  background: linear-gradient(to bottom, #0f7ad2 0%, rgba(15, 122, 210, .5) 33%, rgba(202, 171, 128, .5) 66%, rgba(202, 171, 128, 1) 100%),
+  background: linear-gradient(to bottom, #0f7ad2 0%, rgba(15, 122, 210, .5) 33%, rgba(255, 255, 255, .5) 66%, rgba(255, 255, 255, 1) 100%),
               url("../assets/img/beach.jpg") 0px 0px;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -10286,7 +10286,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
-  background-color: #CAAC80;
+  background-color: #FFFFFF;
 }
 .about-section .featured-text {
   padding: 2rem;
@@ -10323,6 +10323,7 @@ body {
 
 .contact-section {
   padding-top: 5rem;
+  background-color: #0f7ad2;
 }
 .contact-section .card {
   border: 0;
@@ -10360,4 +10361,5 @@ body {
 
 .footer {
   padding: 5rem 0;
+  background-color: #0f7ad2;
 }
