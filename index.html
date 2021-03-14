@@ -37,14 +37,14 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
-                <div class="row align-items-right no-gutters mb-4 mb-lg-5">
+                <div class="row justify-content-left no-gutters mb-4 mb-lg-5 mr-0">
                     <!--TODO: make image a circle and smaller-->
-                    <div class="col-xl-8 col-lg-5"></div>
-                    <div class="col-xl-6 col-lg-7 text-right">
+                    <!-- <div class="col-xl-6 col-lg-7"></div> -->
+                    <div class="col-xl-6 col-lg-7 ml-lg-5">
                         <!--TODO: make featured text css class work-->
                         <h1 class="mr-0 my-0">Emma Munch</h1>
                         <h2 class="text-white-50 mt-2 mb-5 mr-0">Hello World! I'm a data scientist.</h2>
-                        <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
+                        <a class="btn-first btn-primary js-scroll-trigger" href="#about"><i class="fas fa-angle-down" style="width: 20px"></i></a>
                     </div>
                 </div>
             </div>
@@ -61,39 +61,40 @@
                             <h4>Nice to meet you.</h4>
                             <p class="text-white-50 mb-0">I'm a Computer Science major with an emphasis in Applied Analytics graduating from the University 
                                 of Southern California in May 2021. My main area of expertise is in data science and data analytics, specifically 
-                                machine learning in the context of bioinformatics.</p>
+                                machine learning in the context of bioinformatics. I'm passionate about leveraging imaging to propel health forward.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="row justify-content-center no-gutters mb-lg-5">
                     <div class="col-lg-6">
                         <div class="text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-75 my-auto text-center text-lg-left">
                                     <h4 class="text-white text-center">Skills</h4>
-                                    <p class="mb-0 text-white-50">Languages</p>
-                                    <ul class="mb-0 text-white-50">
-                                        <li>Python</li>
-                                        <li>C/C++</li>
-                                        <li>Java</li>
-                                    </ul>
-                                    <p class="mb-0 text-white-50">Libraries</p>
-                                    <ul class="mb-0 text-white-50">
-                                        <li>NumPy</li>
-                                        <li>Pandas</li>
-                                        <li>Matplotlib</li>
-                                        <li>Seaborn</li>
-                                        <li>OpenCV</li>
-                                        <li>Tensorflow</li>
-                                        <li>Keras</li>
-                                        <li>SKlearn</li>
-                                    </ul>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                    <div class="ml-4">
+                                        <p class="mb-0 text-white-50">Languages</p>
+                                        <ul class="mb-0 text-white-50">
+                                            <li>Python</li>
+                                            <li>C/C++</li>
+                                            <li>Java</li>
+                                        </ul>
+                                        <p class="mb-0 text-white-50">Libraries</p>
+                                        <ul class="mb-0 text-white-50">
+                                            <li>NumPy</li>
+                                            <li>Pandas</li>
+                                            <li>Matplotlib</li>
+                                            <li>Seaborn</li>
+                                            <li>OpenCV</li>
+                                            <li>Tensorflow</li>
+                                            <li>Keras</li>
+                                            <li>SKlearn</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <div class="text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-75 my-auto text-center text-lg-left">
@@ -102,8 +103,9 @@
                                     <ul class="mb-0 text-white-50">
                                         <li>Machine Learning/Deep Learning</li>
                                         <li>Convolutional Neural Networks</li>
-                                        <li>Image Processing</li>
+                                        <li>Image Processing/Segmentation</li>
                                         <li>Bioinformatics</li>
+                                        <li>Proteomics/Multiplexed Imaging</li>
                                     </ul>
                                     <p class="mb-0 text-white-50">I am not a robot</p>
                                     <ul class="mb-0 text-white-50">
@@ -111,7 +113,6 @@
                                         <li>Volleyball</li>
                                         <li>Photography</li>
                                     </ul>
-                                    <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
                         </div>
@@ -120,25 +121,10 @@
                 <div class="col-lg-8 mx-auto">
                     <a class="btn btn-primary" download target="_blank" href="assets/emma_munch_resume.pdf">Download Resume</a>
                 </div>
-                <!-- <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">Nice to meet you.</h2>
-                        
-                        <p class="text-white-50">
-                            I'm a Computer Science major with an emphasis in Applied Analytics graduating from the University 
-                            of Southern California in May 2021. My main area of expertise is in data science and data analytics, specifically 
-                            machine learning in the context of bioinformatics.
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page</a>
-                            . The theme is open source, and you can use it for any purpose, personal or commercial.
-                        </p>
-                        <a class="btn btn-primary" download href="assets/emma_munch_resume.pdf">Download Resume</a>
-                    </div>
-                </div>  -->
             </div>
         </section>
         <section class="transition-section text-center" id="about-trans">
             <div class="beach-container">
-                <!-- <img class="img-fluid beach" src="assets/img/beach.jpg" alt="beach" /> -->
             </div>
         </section>
         <!-- Projects-->
@@ -150,16 +136,17 @@
                     <div class="col-xl-8 col-lg-7">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Ionpath</h4>
-                            <p class="text-black-50 mb-0">The majority of my experience is with Ionpath, a dynamic mass spectometry imaging and proteomics startup.
+                            <p class="text-black-50 mb-0">The majority of my experience is with Ionpath, a dynamic mass spectometry imaging proteomics imaging startup.
                                  I have been able to do 3 productive internships with them, working on a variety of different aspects on their image processing pipeline.
-                                 Most recently, I worked on implementing a <strong>U-net CNN</strong> for cell classification using their proprietary image types as input and developing a
-                                 <strong> plot-generation pipeline </strong> for streamlining creation of data analytics deliverables.</p>
+                                 Despite being on the Data Science team, I was passionate about writing
+                                 modular and object-oriented code. Most recently, I worked on implementing a <strong>U-net CNN</strong> for cell classification using their proprietary image types as input and developing a
+                                 <strong> plot-generation pipeline </strong> for streamlining creation of data analytics deliverables. </p>
                         </div>
                     </div>
                 </div>
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/fundus.png" alt="" /></div>
+                    <div class="col-lg-6 my-auto"><img class="img-fluid" src="assets/img/fundus.png" alt="" /></div>
                     <div class="col-lg-6">
                         <div class="text-center h-100 project">
                             <div class="d-flex h-100">
@@ -179,7 +166,7 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/greenmap.png" alt="" /></div>
+                    <div class="col-lg-6 my-auto"><img class="img-fluid" src="assets/img/greenmap.png" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="text-center h-100 project">
                             <div class="d-flex h-100">
@@ -197,7 +184,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/adventofcode.jpg" alt="" /></div>
+                    <div class="col-lg-6 my-auto"><img class="img-fluid" src="assets/img/adventofcode.jpg" alt="" /></div>
                     <div class="col-lg-6">
                         <div class="text-center h-100 project">
                             <div class="d-flex h-100">
@@ -215,7 +202,7 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/musicviz.gif" alt="" /></div>
+                    <div class="col-lg-6 my-auto"><img class="img-fluid" src="assets/img/musicviz.gif" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="text-center h-100 project">
                             <div class="d-flex h-100">
@@ -237,17 +224,7 @@
         <section class="contact-section" id="contact">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Location</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50">Bay Area, CA | Los Angeles, CA</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-3 mb-md-0">
+                    <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-envelope text-primary mb-2"></i>
@@ -257,21 +234,31 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <i class="fab fa-github text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Github</h4>
                                 <hr class="my-4" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                                <div class="small text-black-50"><a href="https://github.com/emmamunch">@emmamunch</a></div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fab fa-linkedin text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Linkedin</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50"><a href="https://www.linkedin.com/in/emmamunch">www.linkedin.com/in/emmamunch</a></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="social d-flex justify-content-center">
+                <!-- <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="https://www.linkedin.com/in/emmamunch"><i class="fab fa-linkedin"></i></a>
                     <a class="mx-2" href="https://github.com/emmamunch"><i class="fab fa-github"></i></a>
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- Footer-->
